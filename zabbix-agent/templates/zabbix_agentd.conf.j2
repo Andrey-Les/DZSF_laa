@@ -1,0 +1,12 @@
+Server=51.250.23.70
+ServerActive=51.250.23.70
+{% if inventory_hostname == 'ansible' %}
+Hostname=ansible
+{% elif inventory_hostname == 'test' %}
+Hostname=test
+{% endif %}
+ListenPort=10050
+LogFile=/var/log/zabbix/zabbix_agentd.log
+LogFileSize=10
+DebugLevel=3
+
