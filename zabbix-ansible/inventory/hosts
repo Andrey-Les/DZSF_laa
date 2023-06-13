@@ -1,6 +1,0 @@
-[zabbix-servers]
-ansible ansible_host=158.160.26.239
-test ansible_host=158.160.8.56
-
-[zabbix-servers:vars]
-zabbix_server_ip=51.250.23.70
